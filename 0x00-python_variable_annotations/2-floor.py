@@ -1,11 +1,19 @@
-#!/usr/bin/python3
-"""florr function"""
+#!/usr/bin/env python3
+"""
+Module with a function 'floor' that computes the floor of a float.
+"""
+
+import math
 
 
-def floor(n: float) -> float:
-    """takes a float arguement and returns float"""
+def floor(n: float) -> int:
+    """
+    Computes the floor of a float.
 
-    if n >= 0:
-        return int (n)
-    else:
-        return int(n - 1)
+    Args:
+        n (float): Input float number.
+
+    Returns:
+        int: Floor of the input float.
+    """
+    return math.floor(n)

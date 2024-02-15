@@ -1,6 +1,7 @@
-#!/usr/bin/python3
-"""defining and annoting variables"""
-
+#!/usr/bin/env python3
+"""
+Module with annotated variables
+"""
 
 a: int = 1
 pi: float = 3.14

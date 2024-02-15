@@ -1,9 +1,19 @@
-#!/usr/bin/python3
-"""sum_list function"""
+#!/usr/bin/env python3
+"""
+Module with 'sum_list' function that sums a list of floats.
+"""
+
+from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:
-    """get sum of list of floating-point numbers"""
+    """
+    Sums a list of floats.
 
-    result: float = sum(input_list)
-    return result
+    Args:
+        input_list (List[float]): Input list of floats.
+
+    Returns:
+        float: Sum of the list.
+    """
+    return sum(input_list)
