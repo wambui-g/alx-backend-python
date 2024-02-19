@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""asynchronous coroutine that takes an integer arguement, waits for random delat then returns"""
+"""module that takes an integer arguement, waits for random delat then returns"""
 import asyncio
 import random
 
